@@ -830,7 +830,7 @@ body {
     color: #ffffff;
 }
   .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
-    background: #2588ca;
+    background: #ffbe00;
     box-shadow:none;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
@@ -841,17 +841,18 @@ body {
   .form-style input[type=text], 
   .form-style input[type=email],
   textarea{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border:1px solid #2588ca;
-    padding: 7px;
-    margin:0px;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    outline: none;  
+    padding: 10px !important;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #b9dbdd!important;
+    background: #e8eaed!important;
+    font-size: 17px;
+    color: #33415c !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    outline:none  
   }
   .form-style .long{
     width: 100%;
